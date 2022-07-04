@@ -1,0 +1,192 @@
+body {
+    /* background-color: cornsilk; */
+    /* color: gray; */
+    font-size: 13px;
+    /* font-weight: bold; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(194, 194, 194);        /* цвет зоны отслеживания */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(8, 140, 228);    /* цвет бегунка */
+    border-radius: 30px;       /* округлось бегунка */
+    border: 3px solid rgb(194, 194, 194);  /* отступ вокруг бегунка */
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(21, 255, 0);
+}
+
+a:visited {
+    color: gray;
+}
+
+.my_face {
+    width: 200px;
+    border-radius: 10%;
+    
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info_text {
+    margin-left: 40px;
+}
+
+.info_text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: gray;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.conteiner {
+    width: 80%;
+    margin: auto;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3){
+    color: #86898f
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px ;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flex > .form-group {
+    width: 50%;
+    margin-right: 20 px;
+}
+
+.flex > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.button {
+    background:  rgb(8, 140, 228);
+    color: white;
+    padding: 15px 20px;
+    border:  none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+.alarm {
+    color: #86898f;
+    font-family: inherit;
+}
+
+
+.help-money {
+    /* background: #ccc; */
+    width: 80%;
+    margin: auto;
+}
+
+.help-money h3{
+    padding: 0px 20px;
+    color: #86898f;
+}
+
+.help-money-list li {
+    padding: 0 20px;
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
